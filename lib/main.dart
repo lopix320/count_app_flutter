@@ -34,7 +34,7 @@ class _HomePageState extends State<HomePage> {
     });
   }
 
-  void incriment() {
+  void increment() {
     setState(() {
       count++;
     });
@@ -106,7 +106,7 @@ class _HomePageState extends State<HomePage> {
                 ),
                 const SizedBox(width: 32),
                 TextButton(
-                  onPressed: isFull ? null : incriment,
+                  onPressed: isFull ? null : increment,
                   style: TextButton.styleFrom(
                     elevation: 25,
                     backgroundColor:
